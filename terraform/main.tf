@@ -1,4 +1,4 @@
-# test manual approval
+# test manual approval stage on existing or new account
 module "sandbox" {
   source = "./modules/aft-account-request"
 

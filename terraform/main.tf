@@ -4,7 +4,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "amazonragook2.01+sandbox@gmail.com"
-    AccountName               = "sandbox-aft1"
+    AccountName               = "sandbox-aft"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "amazonragook2.01+sandbox@gmail.com"
     SSOUserFirstName          = "Sandbox"
@@ -16,7 +16,7 @@ module "sandbox" {
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn 11111"
+    change_requested_by = "HashiCorp Learn"
     change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
   }
 

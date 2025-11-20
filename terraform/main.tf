@@ -26,8 +26,5 @@ module "sandbox" {
 
   account_customizations_name = "sandbox"
 
-  tags = {
-    "Owner"          = "Ragu"
-    "PipelineUpdate" = "v2"
-  }
+
 }
